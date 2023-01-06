@@ -1,0 +1,131 @@
+body {
+  background-color: black;
+  padding: 0;
+  box-sizing: border-box;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+  color: bisque;
+}
+
+.parent_container {
+  height: 100vh;
+  margin: 0px 235px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.sub_container_right {
+  width: 32em;
+  min-height: 100vh;
+  background-image: url(photo-1542328689-df6c076c1604.avif);
+}
+
+.sub_container_left {
+  width: 54em;
+  height: 100vh;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  background-color: rgb(17, 16, 19);
+  height: 33.333%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.header > p {
+  height: 100px;
+  width: 375px;
+  margin-left: 350px;
+  line-height: 1.5em;
+  font-size: large;
+}
+.main {
+  background-image: linear-gradient(
+    to right,
+    rgb(17, 16, 19),
+    rgb(133, 89, 89)
+  );
+  height: 53.333%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.form_content_1,
+.form_content_2 {
+  align-items: center;
+  margin-left: 200px;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.form_content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  background-color: rgb(127, 90, 138);
+  height: 33.333%;
+  width: 100vw;
+  display: block;
+  align-items: center;
+}
+
+input {
+  border-radius: 5px;
+  height: 20px;
+  display: block;
+  background-color: rgb(182, 153, 153);
+  margin-bottom: 30px;
+  width: 200px;
+  border-style: none;
+  align-content: center;
+  color: black;
+  padding: 5px;
+  border-color: rgb(36, 34, 34);
+}
+
+input:valid {
+  border-color: green;
+}
+
+input:invalid {
+  border-color: rgb(54, 1, 70);
+}
+
+input:focus {
+  background-color: rgb(127, 90, 138);
+  border-color: rgb(36, 34, 34);
+}
+
+button {
+  background-image: linear-gradient(
+    to right,
+    rgb(17, 16, 19),
+    rgb(185, 152, 152)
+  );
+  color: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 170px;
+  margin-left: 460px;
+  display: block;
+  margin-top: 50px;
+}
+
+.footer > div {
+  margin-left: 435px;
+  margin-top: 20px;
+}
+
+span {
+  color: rgb(63, 15, 15);
+  font-weight: bold;
+}

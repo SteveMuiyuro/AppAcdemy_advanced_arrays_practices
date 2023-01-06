@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="parent_container">
+      <div class="sub_container_right"></div>
+      <div class="sub_container_left">
+        <div class="header">
+          <p>
+            Looking for the best engine optimized cars? <br /><br />
+
+            We provide you with a variety to choose from. Sign up today to
+            explore.
+          </p>
+        </div>
+        <div class="main">
+          <form action="./" method="post">
+            <div class="form_content">
+              <div class="form_content_1">
+                <label for="first_name">FIRST NAME</label>
+                <input
+                  type="text"
+                  name="firstname"
+                  id="first_name"
+                  required
+                  placeholder="John"
+                />
+                <label for="email">EMAIL</label>
+                <input
+                  type="email"
+                  name="Email"
+                  id="email"
+                  placeholder="axy@domain.com"
+                  required
+                />
+                <label for="password">PASSWORD</label>
+                <input type="password" name="Password" id="password" required />
+              </div>
+
+              <div class="form_content_2">
+                <label for="last_name">LAST NAME</label>
+                <input
+                  type="text"
+                  name="lastname"
+                  id="last_name"
+                  required
+                  placeholder="Doe"
+                />
+                <label for="phone#">PHONE NUMBER</label>
+                <input
+                  type="tel"
+                  name="Phone#"
+                  id="phone#"
+                  required
+                  placeholder="(code) xxx xxx xx"
+                />
+                <label for="confirm_password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  name="Confirm_Password"
+                  id="confirm_password"
+                  required
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="footer">
+          <button type="submit">Create Account</button>
+          <div>Already Have an Account?<span> Log in</span></div>
+    </div>
+  </body>
+</html>
