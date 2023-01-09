@@ -1,131 +1,135 @@
 body {
-  background-color: black;
-  padding: 0;
+  background-image: url(photo-1511747779856-fd751a79aa22.avif);
   box-sizing: border-box;
-  margin: auto;
   font-family: "Lato", sans-serif;
   color: bisque;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: initial;
+}
+
+#myVideo {
+  position: static;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 90%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(107, 154, 179, 0.25);
 }
 
 .parent_container {
-  height: 100vh;
-  margin: 0px 235px;
-  margin-top: 0px;
+  background-image: url(pexels-photo-176851.jpeg);
+  margin-top: 45px;
+  left: 20px;
+  right: 20px;
+  width: 90rem;
+  height: 50rem;
   display: flex;
-  justify-content: center;
-}
-
-.sub_container_right {
-  width: 32em;
-  min-height: 100vh;
-  background-image: url(photo-1542328689-df6c076c1604.avif);
+  justify-content: space-evenly;
+  box-shadow: 10px 10px 5px 0px rgba(107, 154, 179, 0.25);
+  border-radius: 10px;
 }
 
 .sub_container_left {
-  width: 54em;
-  height: 100vh;
-  background-color: brown;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 45%;
+  height: 50rem;
 }
 
-.header {
-  background-color: rgb(17, 16, 19);
-  height: 33.333%;
-  width: 100vw;
-  display: flex;
+.sub_container_left > p {
+  margin-top: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
   align-items: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
 }
 
-.header > p {
-  height: 100px;
-  width: 375px;
-  margin-left: 350px;
-  line-height: 1.5em;
-  font-size: large;
-}
-.main {
-  background-image: linear-gradient(
-    to right,
-    rgb(17, 16, 19),
-    rgb(133, 89, 89)
-  );
-  height: 53.333%;
-  width: 100vw;
-  display: flex;
-  align-items: center;
+.sub_container_right {
+  width: 55%;
+  height: 50rem;
 }
 
-.form_content_1,
-.form_content_2 {
-  align-items: center;
-  margin-left: 200px;
-  padding: 20px;
-  margin-bottom: 5px;
-}
-
-.form_content {
+.sub_container_right > .header {
   display: flex;
   justify-content: space-around;
 }
 
-.footer {
-  background-color: rgb(127, 90, 138);
-  height: 33.333%;
-  width: 100vw;
-  display: block;
-  align-items: center;
-}
-
 input {
-  border-radius: 5px;
-  height: 20px;
   display: block;
-  background-color: rgb(182, 153, 153);
-  margin-bottom: 30px;
-  width: 200px;
-  border-style: none;
-  align-content: center;
-  color: black;
-  padding: 5px;
-  border-color: rgb(36, 34, 34);
-}
-
-input:valid {
-  border-color: green;
-}
-
-input:invalid {
-  border-color: rgb(54, 1, 70);
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  height: 1.5rem;
+  width: 15rem;
 }
 
 input:focus {
-  background-color: rgb(127, 90, 138);
-  border-color: rgb(36, 34, 34);
+  background-color: rgb(17, 65, 109);
+}
+
+.contact_info_1,
+.contact_info_2 {
+  margin-top: 4rem;
+}
+
+legend > .title {
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: rgb(51, 124, 51);
+}
+
+.footer {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer > input[checkbox] {
+  vertical-align: auto;
+  position: relative;
+  bottom: 1px;
+  border-radius: 5px;
+}
+
+.footer > label {
+  font-size: 1.2rem;
+  margin-left: 6rem;
 }
 
 button {
-  background-image: linear-gradient(
-    to right,
-    rgb(17, 16, 19),
-    rgb(185, 152, 152)
-  );
-  color: white;
-  border-radius: 5px;
-  height: 50px;
-  width: 170px;
-  margin-left: 460px;
-  display: block;
-  margin-top: 50px;
+  width: 8rem;
+  height: 3rem;
+  display: inline-block;
+  position: absolute;
+  margin-top: 6rem;
+  background-image: linear-gradient(to right, rgb(37, 83, 184), rgb(5, 32, 90));
+  color: bisque;
+  box-shadow: 10px 10px 5px -8px rgba(107, 154, 179, 0.51);
 }
 
-.footer > div {
-  margin-left: 435px;
-  margin-top: 20px;
+button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to left, rgb(37, 83, 184), rgb(5, 32, 90));
+}
+.login {
+  position: absolute;
+  margin-top: 10rem;
+  font-size: 1.2rem;
 }
 
 span {
-  color: rgb(63, 15, 15);
+  color: rgb(42, 86, 122);
   font-weight: bold;
+  font-size: 1rem;
+}
+span:hover {
+  color: rgb(91, 139, 179);
 }
